@@ -6,9 +6,9 @@
 
 Formula One Racing has hired you to retroactively test some code they wrote to up their test coverage in perparation for a major refactor. 
 
-They request that you finish writing the tests in `race_spec.rb` according to what the `race.rb` already has implimented and what the existing `it` blocks are specifying.
+They request that you finish writing the tests in `spec/` according to what the `lib/` code already has implimented and what the existing `it` blocks are specifying.
 
->Note: `race.rb` has already been implimented, which is not **best practice**, as you should always ideally write the tests *before* you write the code. However, at least we're adding tests now to preserve the code's behavior after the refactor.
+>Note: `race.rb` and `car.rb` have already been implimented, which is not **best practice**. Ideally, you should always write the tests *before* you write the code. However, at least we're adding tests now to preserve the code's behavior after the refactor.
 
 ### Part 2
 
