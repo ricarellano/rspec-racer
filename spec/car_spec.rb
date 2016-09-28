@@ -1,23 +1,15 @@
 require 'spec_helper'
 
 RSpec.describe Car do
-  let(:car) { Car.new }
-
   describe '::new' do
-    it 'sets the speed to 0' do
-      expect(car.speed).to eq 0
-    end
+    it 'sets the initial speed of a car to 0' 
   end
 
   describe '#speed' do
-    it { is_expected.to respond_to :speed }
+    it "has a speed getter method"
   end
 
   describe '#accelerate' do
-    before { car.accelerate(20) }
-
-    it 'accelerates by a given speed' do
-      expect(car.speed).to eq 20
-    end
+    it 'increases the speed of car by a given amount' 
   end
 end
