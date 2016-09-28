@@ -26,8 +26,10 @@ When you feel you've tested everything you should, take a look at the solutions 
 
 The racing company is so excited by your tests, they give you free reign to design more of the racing game. 
 
-Come up with a method or code addition you think would be useful for either the `Race` or the `Car` class.   Write tests for your method.  
+Come up with a method you think would be useful for either the `Race` or the `Car` class.   Write tests for your method. 
 
-Trade method tests with a colleague (if they're short, you can share your test code snippets on slack).  Each of you should write code to pass the tests that the other person came up with. 
+When you have test code you're happy with, add and push JUST YOUR TESTS to GitHub, and make a pull request back to the class repository so that others can see your suggested tests. Make sure you give your pull request a descriptive title and a comment that explains the change you're suggesting. 
+
+Then, check the pull requests that others have made. Choose one test to implement - you can copy and paste your fellow developer's test code into your tests to easily incorporate it. (In industry, you'd use GitHub to collaborate instead of copying and pasting. However, we want to keep the class version of the repository as is.)
 
 Happy Testing!
